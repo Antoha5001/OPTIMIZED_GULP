@@ -1,0 +1,12 @@
+@import "_body.scss";
+h1{
+	color:red;
+	font-family:sans-serif;
+	border-radius:5px;
+}
+a{
+	color:red;
+	.blue{
+		color:blue;
+	}
+}

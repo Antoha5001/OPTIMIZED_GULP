@@ -1,0 +1,16 @@
+body {
+  background: #fdf; }
+
+div {
+  background: pink; }
+
+h1 {
+  color: red;
+  font-family: sans-serif;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
+
+a {
+  color: red; }
+  a .blue {
+    color: blue; }
