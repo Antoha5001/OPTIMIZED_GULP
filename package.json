@@ -4,10 +4,13 @@
   "description": "My GULP project",
   "dependencies": {},
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.24.6",
     "del": "^2.2.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^7.0.1",
     "gulp-cache": "^0.4.6",
     "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
@@ -15,8 +18,9 @@
     "gulp-imagemin": "^3.4.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.2.1",
-    "gulp-uglifyjs": "^0.6.2",
-    "imagemin-pngquant": "^5.1.0"
+    "gulp-uglify": "^3.0.1",
+    "imagemin-pngquant": "^5.1.0",
+    "pump": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

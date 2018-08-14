@@ -1,0 +1,15 @@
+body {
+  background: #ddecff; }
+
+div {
+  background: #305c7a; }
+
+h1 {
+  color: #549905;
+  font-family: sans-serif;
+  border-radius: 5px; }
+
+a {
+  color: red; }
+  a .blue {
+    color: blue; }

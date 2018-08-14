@@ -1,6 +1,8 @@
-@import "_body.scss";
+@import "body";
+@import "libs";
+
 h1{
-	color:red;
+	color:rgb(84, 153, 5);
 	font-family:sans-serif;
 	border-radius:5px;
 }
