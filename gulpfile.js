@@ -60,9 +60,16 @@ gulp.task('serve', function(){
 	gulp.watch('app/**/*.php').on('change', browserSync.reload);
 	gulp.watch('app/**/*.html').on('change', browserSync.reload);
 });
+
+
+// gulp.task('default', function(){
+// 	console.log('default');
+// 	gulp.series('serve');
+// });
+gulp.task('default', gulp.series('serve'));
 exports.script = scripts;
 exports.style = styles;
-exports.default = defaultTask;
+// exports.default = defaultTask;
 
 // gulp.task('script', scripts);
 
