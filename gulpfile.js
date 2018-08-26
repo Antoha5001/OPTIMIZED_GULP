@@ -51,7 +51,7 @@ function defaultTask() {
 gulp.task('serve', function(){
 
 	browserSync.init({
-        proxy: "optimized-gulp.web:82"
+        proxy: srv
     });
 	
 	gulp.watch('app/scss/**/*.scss',gulp.series('style')).on('change', browserSync.reload);
@@ -66,7 +66,7 @@ gulp.task('serve', function(){
 // 	console.log('default');
 // 	gulp.series('serve');
 // });
-gulp.task('default', gulp.series('serve'));
+gulp.task('default', gulp.parallel('serve'));
 exports.script = scripts;
 exports.style = styles;
 // exports.default = defaultTask;

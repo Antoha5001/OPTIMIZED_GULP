@@ -1,14 +1,14 @@
-@import "body";
+@import "reset";
+@import "bootstrap.min";
 @import "libs";
+@import "fonts";
+
+html, body{
+	font-family: "Open Sans";
+}
 
 h1{
-	color:rgb(84, 153, 5);
-	font-family:sans-serif;
-	border-radius:5px;
-}
-a{
-	color:red;
-	.blue{
-		color:blue;
-	}
+	
+	font-family: 'Open Sans';
+	font-size: 32px;
 }
